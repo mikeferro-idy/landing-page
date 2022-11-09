@@ -5,40 +5,80 @@ body {
 
     display: flex;
     flex-direction: column;
+
  }
 
 header {
     background: #1F2A37;
     color: white;
-    padding: 16px;
+    padding: 8px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+
+
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-.links{
-    padding: 16px;
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 64px;
+
+}
+
+.content-one {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tiles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+.tile {
+    
+}
+
+.logo {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+ul{
+    display: flex;
+    gap: 16px;
+    padding: 0;
+    list-style: none;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
     color: white;
+    font-weight: 100;
+    font-size: smaller;
 }
 
 .container {
-    background-color: #1F2A37;
-    color: white;
     display: flex;
-    flex-wrap: wrap;
-    padding: 32px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 8px;
+
 }
 
-.section-one {
-    display: flex;
-    flex: 1;
-}
 .left, .right {
-    padding: 32px;
+
 }
 
 button {
@@ -46,5 +86,5 @@ button {
     color: white;
     border: none;
     border-radius: 8px;
-    padding: 8px 16px;
+    padding: 8px 32px;
 }
